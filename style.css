@@ -19,13 +19,14 @@ color: darkred;
     color: indigo;
     font-size: 20px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 70%;
@@ -47,4 +48,45 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.orange-color{
+    color: darkorange;
+}
+h4{
+    font-size: 25px;
+}
+.Experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-item{
+    width: 50%;
+    margin-left: 1.5%;
+    margin-right: 1%;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 30px rebeccapurple;
+   
+
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(darkgreen, salmon );
+    border-image-slice: 1;
+}
+#adobe-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(brown, yellow );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
