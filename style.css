@@ -1,0 +1,44 @@
+body{
+    font-family: 'Caladea', serif;
+    margin: 0;
+}
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 55px;
+}
+h3{
+    font-family: 'Jomhuria', cursive;
+    font-size: 200px;
+}
+.darkred-color{
+color: darkred;
+}
+.indigo{
+    color: indigo;
+    font-size: 20px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(darkorange,red,tomato) ;
+    padding: 15px 50px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
