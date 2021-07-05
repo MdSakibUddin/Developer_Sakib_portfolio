@@ -27,10 +27,11 @@ color: darkred;
     width: 50%;
     padding-left: 5%;
     font-size: 25px;
+    padding-right: 10px;
     
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
 }
 .link-button{
     text-decoration: none;
@@ -69,7 +70,7 @@ h4{
     padding-left: 5px;
     border-radius: 10px;
     box-shadow: 15px 10px 30px rebeccapurple;
-    text-align: center;
+    text-align: initial;
     font-size: 25px;
    
 
